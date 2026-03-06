@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import Layout from "../components/Layout";
 
-const API = "http://localhost:5000";
+const API = "https://loyds-gym.onrender.com";
 
 function Walkins() {
   const [data, setData] = useState({ walkins: [], total: 0, date: "" });

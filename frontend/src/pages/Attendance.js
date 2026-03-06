@@ -2,7 +2,7 @@ import { useEffect, useState, useRef } from "react";
 import axios from "axios";
 import Layout from "../components/Layout";
 
-const API = "http://localhost:5000";
+const API = "https://loyds-gym.onrender.com";
 
 function Attendance() {
   const [members, setMembers] = useState([]);

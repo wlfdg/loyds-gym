@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Layout from "../components/Layout";
 
-const API = "http://localhost:5000";
+const API = "https://loyds-gym.onrender.com";
 
 const MONTHS = [
   { value: "01", label: "January" }, { value: "02", label: "February" },
