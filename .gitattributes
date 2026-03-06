@@ -1,0 +1,2 @@
+# Preserve executable permissions on node_modules binaries
+node_modules/.bin/* -text
